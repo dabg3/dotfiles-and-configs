@@ -2,7 +2,11 @@
 
 sxhkd &
 # set background
-feh --bg-center /home/rationalplayer/stuff/wallpapers/green_texture_1_1280x800.jpg
+if [ "$HOST" == "x201" ]; then
+	feh --bg-center ~/images/wallpapers/thinkpad-x201/green_texture_1_1280x800.jpg
+else
+	feh --bg-center ~/images/wallpapers/workstation/darkpurple_landscape_1_2560x1080.jpg	
+fi
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
