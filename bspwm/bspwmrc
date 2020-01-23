@@ -1,6 +1,8 @@
 #! /bin/sh
 
 sxhkd &
+# prevent netbeans white screen
+wmname compiz
 # set background
 if [ "$HOST" == "x201" ]; then
 	feh --bg-center ~/images/wallpapers/thinkpad-x201/green_texture_1_1280x800.jpg
