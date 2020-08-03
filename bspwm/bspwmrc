@@ -4,7 +4,7 @@ sxhkd &
 # prevent netbeans white screen
 wmname compiz
 # set background
-if [ "$HOST" == "x201" ]; then
+if $(xrandr | grep "*" | grep -q 1280x800); then
 	feh --bg-center ~/images/wallpapers/thinkpad-x201/green_texture_1_1280x800.jpg
 else
 	feh --bg-center ~/images/wallpapers/workstation/darkpurple_landscape_1_2560x1080.jpg	
