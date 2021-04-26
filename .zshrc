@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$HOME/.npm-global/bin:$PATH
 export ANDROID_HOME="/home/rationalplayer/android/sdk"
 
 # Path to your oh-my-zsh installation.
@@ -99,3 +99,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
