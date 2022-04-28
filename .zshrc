@@ -1,10 +1,6 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$HOME/.npm-global/bin:$PATH
-export ANDROID_HOME="/home/rationalplayer/android/sdk"
-
 # Path to your oh-my-zsh installation.
 # system-wide
-export ZSH="/usr/share/oh-my-zsh"
+export ZSH="/usr/share/ohmyzsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
