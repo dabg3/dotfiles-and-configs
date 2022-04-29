@@ -6,9 +6,9 @@
 super + Return
 	st
 
-# program launcher
+# program launcher, always on first monitor
 super + @space
-	dmenu_run -m eDP1
+	dmenu_run -m 0
 
 # make sxhkd reload its configuration files:
 super + Escape
